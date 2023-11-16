@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="394dp"
+        android:layout_height="406dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="232dp"
+        android:background="@color/fondoTable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text1"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text2"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text3"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text4"
+                style="@style/textview2048"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text5"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text6"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text7"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text8"
+                style="@style/textview2048"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text9"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text10"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text11"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text12"
+                style="@style/textview2048"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text13"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text14"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text15"
+                style="@style/textview2048"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/text16"
+                style="@style/textview2048"
+                android:text="0" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="21dp"
+        android:text="New Game"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="71dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="27dp"
+        android:text="Score"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="75dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="24dp"
+        android:text="Best"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
