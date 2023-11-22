@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fondoTextView" > #F5CA86</color>
     <color name="fondoTable"> #f3f3df</color>
+    <color name="fondoTextView0">#A57C03</color>
 </resources>
